@@ -27,8 +27,7 @@
    - Ознакомиться с основными терминами: контейнер, образ, Dockerfile, Docker Compose.
    - Ресурсы:
        - Официальная документация Docker: [Get Started](https://docs.docker.com/get-started/).
-       - Статья: [What is a Container?](https://www.docker.com/resources/what-container/).
-   - Видео: YouTube-каналы, такие как TechWorld with Nana или официальные видео Docker.
+       - Статья: [What is a Container?](https://www.docker.com/resources/what-container/).   
 
 1.2. **Понимание Docker Desktop**:
    - Узнать, что такое Docker Desktop и его особенности для Windows, macOS и Linux.
@@ -36,7 +35,8 @@
        - Windows: WSL2 или Hyper-V, 64-битная Windows 10/11 Pro, Enterprise или Education.
        - macOS: macOS 10.15 или новее, поддержка виртуализации.
        - Linux: Ubuntu, Debian, Fedora или другие поддерживаемые дистрибутивы.
-   - Ресурсы: [Docker Desktop Overview](https://docs.docker.com/desktop/).
+   - Ресурсы: 
+       - [Docker Desktop Overview](https://docs.docker.com/desktop/).
 
 1.3. **Подготовка системы**:
    - Проверить системные требования (CPU с поддержкой виртуализации, минимум 4 ГБ RAM).
@@ -99,7 +99,8 @@
      - `docker ps` — просмотр запущенных контейнеров.
      - `docker stop`/`docker rm` — остановка и удаление контейнеров.
      - `docker images`/`docker rmi` — просмотр и удаление образов.
-   - Ресурсы: [Docker CLI Reference](https://docs.docker.com/engine/reference/commandline/cli/).
+   - Ресурсы: 
+       - [Docker CLI Reference](https://docs.docker.com/engine/reference/commandline/cli/).
 
 3.2. **Работа с Docker Hub**:
    - Найти образы на Docker Hub (например, nginx, mysql, python).
@@ -130,7 +131,8 @@
        - COPY/ADD — копирование файлов.
        - CMD/ENTRYPOINT — команда по умолчанию при запуске контейнера.
        - EXPOSE — указание портов.
-   - Ресурсы: [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/).
+   - Ресурсы: 
+       - [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/).
 
 4.2. **Создание простого приложения**:
    - Написать простое приложение (например, Python Flask или Node.js).
@@ -170,9 +172,11 @@
 **Цель (3–4 дня)**: *Освоить оркестрацию нескольких контейнеров с помощью Docker Compose*.
 
 5.1. **Изучение Docker Compose**:
-   - Прочитать, что такое Docker Compose и его основные компоненты (сервисы, сети, тома).
+   - Прочитать, что такое [Docker Compose](https://docs.docker.com/compose/) и его основные компоненты (сервисы, сети, тома).
    - Изучить структуру файла docker-compose.yml.
-   - Ресурсы: [Docker Compose Overview](https://docs.docker.com/compose/).
+   - Ресурсы: 
+       - [Docker Compose Overview](https://docs.docker.com/compose/install/).
+       
 
 5.2. **Создание многоконтейнерного приложения**:
    - Настроить приложение с несколькими сервисами, например:
@@ -222,7 +226,9 @@
 6.1. **Работа с томами и сетями**:
    - Изучить типы томов: bind mounts, volumes, tmpfs.
    - Настроить пользовательские сети: `docker network create`.
-   - Ресурсы: [Docker Storage](https://docs.docker.com/storage/), [Networking](https://docs.docker.com/network/).
+   - Ресурсы: 
+       - [Docker Storage](https://docs.docker.com/storage/), 
+       - [Networking](https://docs.docker.com/network/).
 
 6.2. **Оптимизация образов**:
    - Уменьшить размер образов:
@@ -284,7 +290,8 @@
 7.2. **Интеграция с Kubernetes**:
    - Установить Minikube или Kind для локального тестирования Kubernetes.
    - Перенести приложение из Docker Compose в Kubernetes (создать манифесты для Deployment и Service).
-   - Ресурсы: [Kubernetes Basics](https://kubernetes.io/docs/tutorials/).
+   - Ресурсы: 
+       - [Kubernetes Basics](https://kubernetes.io/docs/tutorials/).
 
 7.3. **Тестирование и разработка**:
    - Настроить локальную среду разработки с Docker (hot-reload для Node.js/Flask).
